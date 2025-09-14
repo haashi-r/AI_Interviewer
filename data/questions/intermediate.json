@@ -1,0 +1,88 @@
+{
+  "intermediate_questions": [
+    {
+      "id": "inter_001",
+      "category": "Pivot Tables",
+      "question": "Walk me through creating a pivot table from a sales data set. How would you show total sales by region and product category, and then add a filter for specific time periods?",
+      "expected_points": [
+        "Insert -> Pivot Table process",
+        "Drag fields to appropriate areas",
+        "Adding filters and slicers",
+        "Grouping dates by periods"
+      ],
+      "evaluation_criteria": "Comprehensive understanding of pivot table creation and customization"
+    },
+    {
+      "id": "inter_002",
+      "category": "Advanced Formulas",
+      "question": "You need to look up an employee's salary based on their ID, but the ID might not exist. How would you handle this scenario and return 'Not Found' if the ID doesn't exist?",
+      "expected_points": [
+        "VLOOKUP with IFERROR",
+        "INDEX/MATCH combination",
+        "Error handling strategies",
+        "Mention of XLOOKUP if familiar"
+      ],
+      "evaluation_criteria": "Error handling and advanced lookup techniques"
+    },
+    {
+      "id": "inter_003",
+      "category": "Conditional Logic",
+      "question": "Create a formula that assigns letter grades (A, B, C, D, F) based on numerical scores, where A=90+, B=80-89, C=70-79, D=60-69, F=below 60.",
+      "expected_points": [
+        "Nested IF statements",
+        "IFS function (newer Excel)",
+        "LOOKUP table approach",
+        "Proper logical structure"
+      ],
+      "evaluation_criteria": "Complex conditional logic implementation"
+    },
+    {
+      "id": "inter_004",
+      "category": "Data Analysis",
+      "question": "You have monthly sales data for 3 years. How would you identify trends, seasonality, and create a forecast for the next 6 months?",
+      "expected_points": [
+        "Charts for visualization",
+        "TREND or FORECAST functions",
+        "Moving averages",
+        "Data analysis toolpack features"
+      ],
+      "evaluation_criteria": "Analytical thinking and forecasting knowledge"
+    },
+    {
+      "id": "inter_005",
+      "category": "Charts & Visualization",
+      "question": "How would you create a dashboard showing KPI metrics with dynamic charts that update based on dropdown selections?",
+      "expected_points": [
+        "Data validation for dropdowns",
+        "Dynamic named ranges or tables",
+        "Chart data source linking",
+        "Dashboard design principles"
+      ],
+      "evaluation_criteria": "Integration of multiple Excel features for dynamic reporting"
+    },
+    {
+      "id": "inter_006",
+      "category": "Advanced Functions",
+      "question": "Explain how you would use SUMIFS to calculate total sales for a specific region, product, and date range all in one formula.",
+      "expected_points": [
+        "SUMIFS syntax with multiple criteria",
+        "Proper range and criteria setup",
+        "Date range criteria handling",
+        "Alternative approaches with SUMPRODUCT"
+      ],
+      "evaluation_criteria": "Understanding of multiple criteria functions"
+    },
+    {
+      "id": "inter_007",
+      "category": "Data Validation",
+      "question": "How would you set up data validation to ensure users can only enter valid email addresses in a column?",
+      "expected_points": [
+        "Data validation custom formula",
+        "Using FIND or SEARCH functions",
+        "Input message and error alert setup",
+        "Regular expression concepts if known"
+      ],
+      "evaluation_criteria": "Advanced data validation techniques and user experience considerations"
+    }
+  ]
+}

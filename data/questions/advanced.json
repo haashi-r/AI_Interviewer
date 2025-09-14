@@ -1,0 +1,94 @@
+{
+  "advanced_questions": [
+    {
+      "id": "adv_001",
+      "category": "VBA & Automation",
+      "question": "How would you automate a monthly reporting process that involves importing data, cleaning it, creating pivot tables, and generating charts? Walk me through your VBA approach.",
+      "expected_points": [
+        "VBA macro structure",
+        "Data import methods",
+        "Object manipulation",
+        "Error handling in VBA",
+        "User interface considerations"
+      ],
+      "evaluation_criteria": "Programming logic and automation understanding"
+    },
+    {
+      "id": "adv_002",
+      "category": "Array Formulas",
+      "question": "Explain how you would use array formulas to find the top 3 sales values and their corresponding salesperson names from a large dataset without using helper columns.",
+      "expected_points": [
+        "LARGE function for top values",
+        "INDEX/MATCH with array logic",
+        "Dynamic arrays (if Office 365)",
+        "CSE array formula entry"
+      ],
+      "evaluation_criteria": "Advanced array formula concepts and implementation"
+    },
+    {
+      "id": "adv_003",
+      "category": "Data Modeling",
+      "question": "You're building a financial model with scenario analysis. How would you structure it to allow easy switching between best case, worst case, and most likely scenarios?",
+      "expected_points": [
+        "Data tables for scenarios",
+        "Input cells and assumptions",
+        "INDIRECT or OFFSET functions",
+        "Model structure best practices",
+        "Sensitivity analysis"
+      ],
+      "evaluation_criteria": "Financial modeling expertise and structural thinking"
+    },
+    {
+      "id": "adv_004",
+      "category": "Power Query",
+      "question": "How would you use Power Query to combine multiple CSV files with similar structures, clean the data, and create relationships for analysis?",
+      "expected_points": [
+        "Get Data from folder",
+        "Data transformation steps",
+        "Append queries",
+        "Data types and cleaning",
+        "Loading to data model"
+      ],
+      "evaluation_criteria": "Modern Excel data processing capabilities"
+    },
+    {
+      "id": "adv_005",
+      "category": "Complex Analysis",
+      "question": "Design a solution for tracking project budgets vs actuals with variance analysis, alerts for budget overruns, and automatic escalation reporting.",
+      "expected_points": [
+        "Conditional formatting for alerts",
+        "Complex formulas for variance",
+        "Dashboard design",
+        "Automated reporting features",
+        "Integration considerations"
+      ],
+      "evaluation_criteria": "Business process integration and complex problem solving"
+    },
+    {
+      "id": "adv_006",
+      "category": "Power Pivot",
+      "question": "Explain how you would use Power Pivot to create relationships between multiple data tables and build DAX measures for advanced analytics.",
+      "expected_points": [
+        "Data model relationships",
+        "DAX syntax and functions",
+        "Calculated columns vs measures",
+        "Time intelligence functions",
+        "Performance considerations"
+      ],
+      "evaluation_criteria": "Advanced data modeling and DAX knowledge"
+    },
+    {
+      "id": "adv_007",
+      "category": "Performance Optimization",
+      "question": "You have a large Excel workbook (100MB+) that's running slowly. What strategies would you use to optimize its performance?",
+      "expected_points": [
+        "Volatile function reduction",
+        "Calculation mode management",
+        "Data structure optimization",
+        "Formula efficiency techniques",
+        "Hardware and Excel settings"
+      ],
+      "evaluation_criteria": "Understanding of Excel performance factors and optimization techniques"
+    }
+  ]
+}

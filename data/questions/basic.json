@@ -1,0 +1,93 @@
+{
+  "basic_questions": [
+    {
+      "id": "basic_001",
+      "category": "Formulas & Functions",
+      "question": "How would you calculate the sum of values in cells A1 to A10? What if you wanted to exclude any text values in that range?",
+      "expected_points": [
+        "Use SUM(A1:A10) for basic sum",
+        "Can mention SUM function ignores text automatically",
+        "Alternative approaches like using array formulas"
+      ],
+      "evaluation_criteria": "Look for correct SUM syntax and understanding of function behavior"
+    },
+    {
+      "id": "basic_002", 
+      "category": "Data Management",
+      "question": "You have a list of customer names in column A with some duplicates. How would you identify and remove the duplicate entries?",
+      "expected_points": [
+        "Data tab -> Remove Duplicates feature",
+        "Conditional formatting to highlight duplicates", 
+        "Using filters or advanced filters"
+      ],
+      "evaluation_criteria": "Understanding of Excel's data cleaning capabilities"
+    },
+    {
+      "id": "basic_003",
+      "category": "Cell Formatting", 
+      "question": "Explain how you would format a column of numbers to display as currency with two decimal places. What if you wanted different currencies for different rows?",
+      "expected_points": [
+        "Right-click -> Format Cells -> Currency",
+        "Custom number format codes",
+        "Using different currency symbols"
+      ],
+      "evaluation_criteria": "Knowledge of formatting options and flexibility"
+    },
+    {
+      "id": "basic_004",
+      "category": "Basic Functions",
+      "question": "What's the difference between AVERAGE() and MEDIAN() functions? When would you use each one?",
+      "expected_points": [
+        "AVERAGE calculates arithmetic mean",
+        "MEDIAN finds middle value", 
+        "Understanding when each is more appropriate"
+      ],
+      "evaluation_criteria": "Statistical understanding and practical application"
+    },
+    {
+      "id": "basic_005",
+      "category": "Data Entry",
+      "question": "How would you quickly fill a series of dates (like every Monday for the next 12 weeks) in Excel?",
+      "expected_points": [
+        "Fill Series feature",
+        "AutoFill with drag",
+        "Understanding date arithmetic"  
+      ],
+      "evaluation_criteria": "Efficiency in data entry techniques"
+    },
+    {
+      "id": "basic_006",
+      "category": "Basic Functions",
+      "question": "If you have sales data in column B (rows 2-50), how would you count how many sales are greater than $1000?",
+      "expected_points": [
+        "COUNTIF(B2:B50,\">1000\")",
+        "Understanding of criteria syntax",
+        "Alternative approaches with SUMPRODUCT"
+      ],
+      "evaluation_criteria": "Understanding conditional counting functions"
+    },
+    {
+      "id": "basic_007", 
+      "category": "Cell References",
+      "question": "What's the difference between A1, $A$1, $A1, and A$1 in Excel formulas? Give an example of when you'd use each.",
+      "expected_points": [
+        "Relative vs absolute references",
+        "Mixed references explanation", 
+        "Practical usage examples"
+      ],
+      "evaluation_criteria": "Understanding of reference types and their applications"
+    },
+    {
+      "id": "basic_008",
+      "category": "Charts & Graphs",
+      "question": "You have monthly sales data and want to create a chart. Walk me through the steps and what chart type you'd choose for showing trends over time.",
+      "expected_points": [
+        "Select data range",
+        "Insert chart from ribbon",
+        "Choose line chart for trends",
+        "Basic chart customization"
+      ],
+      "evaluation_criteria": "Chart creation process and appropriate chart selection"
+    }
+  ]
+}

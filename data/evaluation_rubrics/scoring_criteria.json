@@ -1,0 +1,176 @@
+{
+  "scoring_criteria": {
+    "technical_accuracy": {
+      "weight": 0.40,
+      "description": "Correctness of technical knowledge and Excel syntax",
+      "score_ranges": {
+        "excellent": {
+          "range": [90, 100],
+          "description": "Perfect or near-perfect technical accuracy, demonstrates expert-level knowledge"
+        },
+        "good": {
+          "range": [75, 89],
+          "description": "Strong technical knowledge with minor gaps or errors"
+        },
+        "satisfactory": {
+          "range": [60, 74],
+          "description": "Basic technical understanding with some notable gaps"
+        },
+        "needs_improvement": {
+          "range": [40, 59],
+          "description": "Limited technical accuracy, significant knowledge gaps"
+        },
+        "poor": {
+          "range": [0, 39],
+          "description": "Minimal or incorrect technical knowledge"
+        }
+      }
+    },
+    "depth_of_knowledge": {
+      "weight": 0.25,
+      "description": "Understanding of Excel concepts beyond surface level",
+      "score_ranges": {
+        "excellent": {
+          "range": [90, 100],
+          "description": "Demonstrates deep understanding of Excel concepts and their interconnections"
+        },
+        "good": {
+          "range": [75, 89],
+          "description": "Good understanding of intermediate to advanced concepts"
+        },
+        "satisfactory": {
+          "range": [60, 74],
+          "description": "Adequate depth for basic to intermediate tasks"
+        },
+        "needs_improvement": {
+          "range": [40, 59],
+          "description": "Surface-level understanding, needs to develop deeper knowledge"
+        },
+        "poor": {
+          "range": [0, 39],
+          "description": "Very limited depth of understanding"
+        }
+      }
+    },
+    "problem_solving_approach": {
+      "weight": 0.20,
+      "description": "Logical thinking and structured approach to Excel problems",
+      "score_ranges": {
+        "excellent": {
+          "range": [90, 100],
+          "description": "Excellent analytical thinking with logical, efficient solutions"
+        },
+        "good": {
+          "range": [75, 89],
+          "description": "Good problem-solving approach with structured methodology"
+        },
+        "satisfactory": {
+          "range": [60, 74],
+          "description": "Basic problem-solving skills with some logical reasoning"
+        },
+        "needs_improvement": {
+          "range": [40, 59],
+          "description": "Limited problem-solving approach, needs development"
+        },
+        "poor": {
+          "range": [0, 39],
+          "description": "Minimal demonstration of problem-solving skills"
+        }
+      }
+    },
+    "communication_clarity": {
+      "weight": 0.15,
+      "description": "Ability to clearly explain Excel concepts and solutions",
+      "score_ranges": {
+        "excellent": {
+          "range": [90, 100],
+          "description": "Clear, concise explanations with excellent technical communication"
+        },
+        "good": {
+          "range": [75, 89],
+          "description": "Good communication skills with mostly clear explanations"
+        },
+        "satisfactory": {
+          "range": [60, 74],
+          "description": "Adequate communication with some clarity issues"
+        },
+        "needs_improvement": {
+          "range": [40, 59],
+          "description": "Communication needs improvement for better clarity"
+        },
+        "poor": {
+          "range": [0, 39],
+          "description": "Poor communication clarity affects understanding"
+        }
+      }
+    }
+  },
+  "overall_skill_levels": {
+    "expert": {
+      "range": [90, 100],
+      "description": "Expert-level Excel proficiency suitable for senior roles and training others",
+      "characteristics": [
+        "Mastery of advanced features like VBA, Power Query, Power Pivot",
+        "Can design complex financial models and automated solutions",
+        "Demonstrates best practices and optimization techniques",
+        "Can mentor others and lead Excel-based projects"
+      ]
+    },
+    "advanced": {
+      "range": [75, 89],
+      "description": "Strong Excel skills suitable for professional roles requiring complex analysis",
+      "characteristics": [
+        "Proficient with advanced formulas, pivot tables, and data analysis",
+        "Can create dynamic dashboards and reports",
+        "Understands data modeling concepts",
+        "Can work independently on complex Excel projects"
+      ]
+    },
+    "intermediate": {
+      "range": [60, 74],
+      "description": "Competent Excel user with good practical skills for most business tasks",
+      "characteristics": [
+        "Comfortable with formulas, functions, and basic data analysis",
+        "Can create charts and basic pivot tables",
+        "Understands formatting and data management",
+        "Suitable for roles requiring regular Excel use"
+      ]
+    },
+    "basic": {
+      "range": [40, 59],
+      "description": "Foundational Excel knowledge suitable for entry-level positions with training",
+      "characteristics": [
+        "Knows basic formulas and functions",
+        "Can perform simple data entry and formatting",
+        "Understands basic chart creation",
+        "Requires training for advanced features"
+      ]
+    },
+    "novice": {
+      "range": [0, 39],
+      "description": "New to Excel with minimal knowledge, requires comprehensive training",
+      "characteristics": [
+        "Limited to very basic Excel operations",
+        "Struggles with formula syntax and concepts",
+        "Needs extensive training before professional use",
+        "May be suitable for roles with minimal Excel requirements"
+      ]
+    }
+  },
+  "category_weights": {
+    "formulas_functions": 0.25,
+    "data_analysis": 0.20,
+    "pivot_tables": 0.15,
+    "charts_visualization": 0.10,
+    "data_management": 0.10,
+    "advanced_features": 0.10,
+    "automation_vba": 0.05,
+    "general_excel_knowledge": 0.05
+  },
+  "difficulty_progression": {
+    "basic_to_intermediate_threshold": 75,
+    "intermediate_to_advanced_threshold": 80,
+    "difficulty_decrease_threshold": 50,
+    "minimum_questions_before_adjustment": 3
+  }
+}
