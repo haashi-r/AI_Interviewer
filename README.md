@@ -1,6 +1,6 @@
 # AI-Powered Excel Mock Interviewer
 
-A comprehensive AI-driven system for assessing Excel skills through conversational interviews. Built with Streamlit frontend and Python backend, powered by Google's Gemini 2.5-flash model for intelligent evaluation.
+A comprehensive AI-driven system for assessing Excel skills through conversational interviews. Built with Streamlit frontend and Python backend, powered by Groq's Llama-3.1-8b-instant model for intelligent evaluation.
 
 # Features
 
@@ -19,7 +19,7 @@ A comprehensive AI-driven system for assessing Excel skills through conversation
 
 # Prerequisites
 - Python 3.8+
-- Google API Key for Gemini 2.5 flash
+- Groq API Key for Llama-3.1-8b-instant
 
 
 
@@ -30,8 +30,8 @@ pip install -r requirements.txt
 
 # Environment Configuration
 
-# Edit .env and add your Google API key
-GOOGLE_API_KEY=your_google_api_key_here
+# Edit .env and add your Groq API key
+GROQ_API_KEY=your_groq_api_key_here
 ```
 
 ### Step 4: Run the Application
@@ -46,7 +46,7 @@ streamlit run frontend/streamlit_app.py
 #  Configuration
 
 # Environment Variables
-- `GOOGLE_API_KEY`: Your Google AI Studio API key (required)
+- `GROQ_API_KEY`: Your Groq API key (required)
 - `STREAMLIT_SERVER_PORT`: Port for Streamlit server (default: 8501)
 - `DEBUG`: Enable debug mode (default: False)
 
@@ -153,8 +153,8 @@ streamlit run frontend/streamlit_app.py
 
 ##  API Usage
 
-### Google Gemini Pro
-- Model: `gemini-2.5-flash`
+### Groq Llama-3.1-8b-instant
+- Model: `llama-3.1-8b-instant`
 - Temperature: 0.3 (balanced creativity/consistency)
 - Max tokens: 2048
 - Rate limiting: Handled with retry logic
@@ -184,9 +184,9 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ### Common Issues
 
-**"Google API Key not found"**
-- Ensure `.env` file exists with valid `GOOGLE_API_KEY`
-- Check API key permissions in Google AI Studio
+**"Groq API Key not found"**
+- Ensure `.env` file exists with valid `GROQ_API_KEY`
+- Check API key permissions in Groq Console
 
 **"Session not found"**
 - Browser refresh clears session state
@@ -211,4 +211,4 @@ For questions, issues, or contributions:
 
 ---
 
-Built with using Streamlit, Google gemini-2.5-flash, and Python
+Built with using Streamlit, Groq Llama-3.1-8b-instant, and Python
